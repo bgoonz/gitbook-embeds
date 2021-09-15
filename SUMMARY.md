@@ -4,7 +4,7 @@
 
 ## Aesthetic
 
-* [Asetuetic](aesthetic/untitled.md)
+* [Aesthetic](aesthetic/untitled.md)
 
 ## Functional
 
