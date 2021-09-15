@@ -4,7 +4,7 @@
 
 ## Aesthetic
 
-* [Untitled](aesthetic/untitled.md)
+* [Asetuetic](aesthetic/untitled.md)
 
 ## Functional
 
@@ -13,4 +13,8 @@
 ## My
 
 * [Untitled](my/untitled.md)
+
+## Demos
+
+* [Untitled](demos/untitled.md)
 
