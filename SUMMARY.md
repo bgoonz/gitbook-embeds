@@ -16,5 +16,8 @@
 
 ## Demos
 
-* [Untitled](demos/untitled.md)
+* [Demo](demos/untitled.md)
 
+## Ds-Algo
+
+* [DS-Algo](ds-algo/ds-algo.md)
