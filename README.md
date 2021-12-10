@@ -1,8 +1,12 @@
+---
+coverY: 0
+---
+
 # Initial page
 
-## Test Dirven Development: <a href="test-dirven-development" id="test-dirven-development"></a>
+![](https://images.unsplash.com/photo-1633872880116-f19a8e012bfe?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzU5MjMxODI\&ixlib=rb-1.2.1\&q=85)
 
-
+## Test Dirven Development: <a href="#test-dirven-development" id="test-dirven-development"></a>
 
 {% embed url="https://www.spec-india.com/wp-content/uploads/tdd_flow.gif" %}
 
@@ -489,9 +493,9 @@ You can do this on your own, which can be quite tricky due to the wide variety o
 
 SessionStack is a solution that lets you replay JavaScript errors as if they happened in your browser. You can visually replay the exact user steps that led to the error, see the device, resolution, network, and all of the data that might be needed to connect the dots.
 
-## **Flashcards** <a href="flashcards" id="flashcards"></a>
+## **Flashcards** <a href="#flashcards" id="flashcards"></a>
 
-### **Asynchronous** <a href="asynchronous" id="asynchronous"></a>
+### **Asynchronous** <a href="#asynchronous" id="asynchronous"></a>
 
 **1. What are the arguments that the `setTimeout` and `setInterval` methods can accept?**
 
@@ -562,7 +566,7 @@ console.log("third");
 
 ***
 
-## Fundamentals of Testing in Javascript <a href="fundamentals-of-testing-in-javascript" id="fundamentals-of-testing-in-javascript"></a>
+## Fundamentals of Testing in Javascript <a href="#fundamentals-of-testing-in-javascript" id="fundamentals-of-testing-in-javascript"></a>
 
 [https://testingjavascript.com/courses/fundamentals-of-testing-in-javascript](https://testingjavascript.com/courses/fundamentals-of-testing-in-javascript)
 
@@ -575,7 +579,7 @@ console.log("third");
 * 5\. Provide Testing Helper Functions as Globals in JavaScript
 * 6\. Verify Custom JavaScript Tests with Jest
 
-### 1. Throw an Error with a Simple Test in JavaScript <a href="1-throw-an-error-with-a-simple-test-in-javascript" id="1-throw-an-error-with-a-simple-test-in-javascript"></a>
+### 1. Throw an Error with a Simple Test in JavaScript <a href="#1-throw-an-error-with-a-simple-test-in-javascript" id="1-throw-an-error-with-a-simple-test-in-javascript"></a>
 
 [01-throw-an-error.js](file:///C:/Users/bryan/Downloads/01-throw-an-error.js)
 
@@ -585,7 +589,7 @@ $ node 01-throw-an-error.js
 
 Throwing an error when a condition fails is the most fundamental aspect of a test.
 
-### 2. Abstract Test Assertions into a JavaScript Assertion Library <a href="2-abstract-test-assertions-into-a-javascript-assertion-library" id="2-abstract-test-assertions-into-a-javascript-assertion-library"></a>
+### 2. Abstract Test Assertions into a JavaScript Assertion Library <a href="#2-abstract-test-assertions-into-a-javascript-assertion-library" id="2-abstract-test-assertions-into-a-javascript-assertion-library"></a>
 
 [02-abstract-assertions.js](file:///C:/Users/bryan/Downloads/02-abstract-assertions.js)
 
@@ -598,7 +602,7 @@ returns an object containing a number of different assertions which allows\
 the user to determine how they want to evaluate that result against an\
 expected value.
 
-### 3. Encapsulate and Isolate Tests by building a JavaScript Testing Framework <a href="3-encapsulate-and-isolate-tests-by-building-a-javascript-testing-framework" id="3-encapsulate-and-isolate-tests-by-building-a-javascript-testing-framework"></a>
+### 3. Encapsulate and Isolate Tests by building a JavaScript Testing Framework <a href="#3-encapsulate-and-isolate-tests-by-building-a-javascript-testing-framework" id="3-encapsulate-and-isolate-tests-by-building-a-javascript-testing-framework"></a>
 
 [03-encapsulate-and-isolate-tests.js](file:///C:/Users/bryan/Downloads/03-encapsulate-and-isolate-tests.js)
 
@@ -617,7 +621,7 @@ name tests, and a callback function which will be responsible for running\
 the actual tests, and making use of a try-catch block so as to prevent\
 thrown errors from stopping further execution.
 
-### 4. Support Async Tests with JavaScripts Promises through async await <a href="4-support-async-tests-with-javascripts-promises-through-async-await" id="4-support-async-tests-with-javascripts-promises-through-async-await"></a>
+### 4. Support Async Tests with JavaScripts Promises through async await <a href="#4-support-async-tests-with-javascripts-promises-through-async-await" id="4-support-async-tests-with-javascripts-promises-through-async-await"></a>
 
 [04-support-async-tests.js](file:///C:/Users/bryan/Downloads/04-support-async-tests.js)
 
@@ -628,7 +632,7 @@ $ node 04-support-async-tests.js
 In order to allow async tests to be run, we need our `test` function to be\
 `async`, and we need to prepend the callack invocation with `await`.
 
-### 5. Provide Testing Helper Functions as Globals in JavaScript <a href="5-provide-testing-helper-functions-as-globals-in-javascript" id="5-provide-testing-helper-functions-as-globals-in-javascript"></a>
+### 5. Provide Testing Helper Functions as Globals in JavaScript <a href="#5-provide-testing-helper-functions-as-globals-in-javascript" id="5-provide-testing-helper-functions-as-globals-in-javascript"></a>
 
 [05-provide-testing-helpers-as-globals.js](file:///C:/Users/bryan/Downloads/05-provide-testing-helpers-as-globals.js)
 
@@ -645,7 +649,7 @@ pragmatic in this situation, is to make the helpers available globally.
 The `--require ./[file].js` flag allows files to be required before\
 executing scripts with the `node` command
 
-### 6. Verify Custom JavaScript Tests with Jest <a href="6-verify-custom-javascript-tests-with-jest" id="6-verify-custom-javascript-tests-with-jest"></a>
+### 6. Verify Custom JavaScript Tests with Jest <a href="#6-verify-custom-javascript-tests-with-jest" id="6-verify-custom-javascript-tests-with-jest"></a>
 
 [06-verify-custom-js-tests-with-jest.test.js](file:///C:/Users/bryan/Downloads/06-verify-custom-js-tests-with-jest.test.js)
 
@@ -749,14 +753,14 @@ All about Testing
 
 ***
 
-#### JavaScript Unit Testing & TDD <a href="javascript-unit-testing-tdd" id="javascript-unit-testing-tdd"></a>
+#### JavaScript Unit Testing & TDD <a href="#javascript-unit-testing-tdd" id="javascript-unit-testing-tdd"></a>
 
-#### All about Testing <a href="all-about-testing" id="all-about-testing"></a>
+#### All about Testing <a href="#all-about-testing" id="all-about-testing"></a>
 
 * _The general idea across all testing frameworks is to allow developers to write code that would specify the behavior of a function or module or class._
 * Testing one function at a time is vulnerable to false negatives and false positives.
 
-#### Why do we test? <a href="why-do-we-test" id="why-do-we-test"></a>
+#### Why do we test? <a href="#why-do-we-test" id="why-do-we-test"></a>
 
 * To make sure everything works.
 * Increase flexibility & reduce fear of code.
@@ -766,14 +770,14 @@ A**utomated Tests** are known as **Specs**, they:
 * Make collaboration easier.
 * Produce Documentation.
 
-#### How We Test <a href="how-we-test" id="how-we-test"></a>
+#### How We Test <a href="#how-we-test" id="how-we-test"></a>
 
 * **Testing Framework** : Runs the tests and presents them to a user.
 * **Assertion Libraries** : Backbone of written tests, the code that we use to write our tests.
 * **Mocha** : JS testing framework which is highly flexible; supports a variety of assertion libraries.
 * **Domain Specific Language** : Refers to a computer language specialized for a particular purpose
 
-#### What do we Test? <a href="what-do-we-test" id="what-do-we-test"></a>
+#### What do we Test? <a href="#what-do-we-test" id="what-do-we-test"></a>
 
 * The public interface:
 * Ask yourself, “What is the public interface of the module or class I’m writing?”
@@ -781,14 +785,14 @@ A**utomated Tests** are known as **Specs**, they:
 
 ![](https://cdn-images-1.medium.com/max/800/0\*-u18Iz0pA\_e0pX2p)![](https://cdn-images-1.medium.com/max/800/0\*Moc1ywM-IYBKtL1l.png)\*The Testing Pyramid\*
 
-#### Unit Tests : The smallest unit of testing. <a href="unit-tests-the-smallest-unit-of-testing" id="unit-tests-the-smallest-unit-of-testing"></a>
+#### Unit Tests : The smallest unit of testing. <a href="#unit-tests-the-smallest-unit-of-testing" id="unit-tests-the-smallest-unit-of-testing"></a>
 
 * Used to test smallest pieces in isolation before putting everything together.
 * Tests ONE THING.
 
-#### Integration Tests : Test the interactions between two pieces of your application. <a href="integration-tests-test-the-interactions-between-two-pieces-of-your-application" id="integration-tests-test-the-interactions-between-two-pieces-of-your-application"></a>
+#### Integration Tests : Test the interactions between two pieces of your application. <a href="#integration-tests-test-the-interactions-between-two-pieces-of-your-application" id="integration-tests-test-the-interactions-between-two-pieces-of-your-application"></a>
 
-#### End to End : Closest automated tests come to testing the actual user experience of your application. <a href="end-to-end-closest-automated-tests-come-to-testing-the-actual-user-experience-of-your-application" id="end-to-end-closest-automated-tests-come-to-testing-the-actual-user-experience-of-your-application"></a>
+#### End to End : Closest automated tests come to testing the actual user experience of your application. <a href="#end-to-end-closest-automated-tests-come-to-testing-the-actual-user-experience-of-your-application" id="end-to-end-closest-automated-tests-come-to-testing-the-actual-user-experience-of-your-application"></a>
 
 **Reading Tests**
 
@@ -802,11 +806,11 @@ A**utomated Tests** are known as **Specs**, they:
 * avgValue() => The function we will be testing.
 * it(“string”) => describes the desired output.
 
-#### Test-Driven Development <a href="test-driven-development" id="test-driven-development"></a>
+#### Test-Driven Development <a href="#test-driven-development" id="test-driven-development"></a>
 
 * TDD is a quick repetitive cycle that revolves around first determining what a piece of code should do and writing tests for that behavior _before actually writing any code_.
 
-#### A simple example just to give an idea of what test code looks like… note that it reads more like spoken english than normal code… <a href="a-simple-example-just-to-give-an-idea-of-what-test-code-looks-like-note-that-it-reads-more-like-spok" id="a-simple-example-just-to-give-an-idea-of-what-test-code-looks-like-note-that-it-reads-more-like-spok"></a>
+#### A simple example just to give an idea of what test code looks like… note that it reads more like spoken english than normal code… <a href="#a-simple-example-just-to-give-an-idea-of-what-test-code-looks-like-note-that-it-reads-more-like-spok" id="a-simple-example-just-to-give-an-idea-of-what-test-code-looks-like-note-that-it-reads-more-like-spok"></a>
 
 By [Bryan Guner](https://medium.com/@bryanguner) on [August 25, 2021](https://medium.com/p/72908e7730f5).
 
@@ -861,11 +865,11 @@ In our projects we try to do TDD when working on new components, API methods, or
 
 We don't use TDD as a way to deliver all of our software, --- sometimes other tools and techniques come more in hand for other scenarios --- but we like to practice with it to become better software professionals.
 
-## list of errors: <a href="list-of-errors" id="list-of-errors"></a>
+## list of errors: <a href="#list-of-errors" id="list-of-errors"></a>
 
 List of possible JS errors
 
-## \[Types of error] <a href="types-of-error" id="types-of-error"></a>
+## \[Types of error] <a href="#types-of-error" id="types-of-error"></a>
 
 Generally speaking, when you do something wrong in code, there are two main types of error that you'll come across:
 
@@ -878,7 +882,7 @@ Okay, so it's not quite _that_ simple --- there are some other differentiators a
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[An erroneous example] <a href="an-erroneous-example" id="an-erroneous-example"></a>
+## \[An erroneous example] <a href="#an-erroneous-example" id="an-erroneous-example"></a>
 
 ***
 
@@ -901,7 +905,7 @@ At this point, let's consult the developer console to see if it reports any synt
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Fixing syntax errors] <a href="fixing-syntax-errors" id="fixing-syntax-errors"></a>
+## \[Fixing syntax errors] <a href="#fixing-syntax-errors" id="fixing-syntax-errors"></a>
 
 Earlier on in the course we got you to type some simple JavaScript commands into the \[developer tools JavaScript console]docs/Learn/Common\_questions/What\_are\_browser\_developer\_tools) (if you can't remember how to open this in your browser, follow the previous link to find out how). What's even more useful is that the console gives you error messages whenever a syntax error exists inside the JavaScript being fed into the browser's JavaScript engine. Now let's go hunting.
 
@@ -927,7 +931,7 @@ Earlier on in the course we got you to type some simple JavaScript commands into
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Syntax errors round two] <a href="syntax-errors-round-two" id="syntax-errors-round-two"></a>
+## \[Syntax errors round two] <a href="#syntax-errors-round-two" id="syntax-errors-round-two"></a>
 
 1. Save your page and refresh, and you should see the error has gone.
 2. Now if you try to enter a guess and press the Submit guess button, you'll see ... another error!![](file:///C:/Users/bryan/Downloads/What\_went\_wrong/variable-is-null.png)
@@ -964,7 +968,7 @@ Earlier on in the course we got you to type some simple JavaScript commands into
 
 **Note:** See our \[TypeError: "x" is (not) "y"]Reference/Errors/Unexpected\_type) reference page for more details about this error.
 
-### &#x20;<a href="undefined" id="undefined"></a>
+### &#x20;<a href="#undefined" id="undefined"></a>
 
 ***
 
@@ -980,7 +984,7 @@ Earlier on in the course we got you to type some simple JavaScript commands into
 
 Runtime errors result in new `Error` objects being created and thrown.
 
-#### [Error types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Error#error\_types) <a href="error-typeshttpsdevelopermozillaorgen-usdocswebjavascriptreferenceglobal_objectserrorerror_types-per" id="error-typeshttpsdevelopermozillaorgen-usdocswebjavascriptreferenceglobal_objectserrorerror_types-per"></a>
+#### [Error types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Error#error\_types) <a href="#error-typeshttpsdevelopermozillaorgen-usdocswebjavascriptreferenceglobal_objectserrorerror_types-per" id="error-typeshttpsdevelopermozillaorgen-usdocswebjavascriptreferenceglobal_objectserrorerror_types-per"></a>
 
 Besides the generic `Error` constructor, there are other core error constructors in JavaScript. For client-side exceptions, see [Exception handling statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control\_flow\_and\_error\_handling#exception\_handling\_statements).
 
@@ -1064,7 +1068,7 @@ A non-standard Mozilla property for a stack trace.
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Syntax errors round three] <a href="syntax-errors-round-three" id="syntax-errors-round-three"></a>
+## \[Syntax errors round three] <a href="#syntax-errors-round-three" id="syntax-errors-round-three"></a>
 
 1. Now if you try playing the game through again, you should get more success --- the game should play through absolutely fine, until you end the game, either by guessing the right number, or by running out of guesses.
 2. At that point, the game fails again, and the same error is spat out that we got at the beginning --- "TypeError: resetButton.addeventListener is not a function"! However, this time it's listed as coming from line 94.
@@ -1074,7 +1078,7 @@ A non-standard Mozilla property for a stack trace.
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[A logic error] <a href="a-logic-error" id="a-logic-error"></a>
+## \[A logic error] <a href="#a-logic-error" id="a-logic-error"></a>
 
 ***
 
@@ -1103,13 +1107,13 @@ There's definitely a problem in the game logic somewhere --- the game is not ret
     ```
 4. Save and refresh, then play a few games --- you'll see that `randomNumber` is equal to 1 at each point where it is logged to the console.
 
-### &#x20;<a href="1" id="1"></a>
+### &#x20;<a href="#1" id="1"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Working through the logic] <a href="working-through-the-logic" id="working-through-the-logic"></a>
+## \[Working through the logic] <a href="#working-through-the-logic" id="working-through-the-logic"></a>
 
 To fix this, let's consider how this line is working. First, we invoke \[`Math.random()`]/Math/random), which generates a random decimal number between 0 and 1, e.g. 0.5675493843.
 
@@ -1123,7 +1127,7 @@ Next, we pass the result of invoking `Math.random()` through \[`Math.floor()`]/M
 Math.floor(Math.random()) + 1;
 ```
 
-Rounding a random decimal number between 0 and 1 down will always return 0, so adding 1 to it will always return 1.  We need to multiply the random number by 100 before we round it down. The following would give us a random number between 0 and 99:
+Rounding a random decimal number between 0 and 1 down will always return 0, so adding 1 to it will always return 1. We need to multiply the random number by 100 before we round it down. The following would give us a random number between 0 and 99:
 
 ```
 Math.floor(Math.random() * 100);
@@ -1141,17 +1145,17 @@ Try updating both lines like this, then save and refresh --- the game should now
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Other common errors] <a href="other-common-errors" id="other-common-errors"></a>
+## \[Other common errors] <a href="#other-common-errors" id="other-common-errors"></a>
 
 There are other common errors you'll come across in your code. This section highlights most of them.
 
-### &#x20;<a href="2" id="2"></a>
+### &#x20;<a href="#2" id="2"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[SyntaxError: missing ; before statement] <a href="syntaxerror-missing-before-statement" id="syntaxerror-missing-before-statement"></a>
+## \[SyntaxError: missing ; before statement] <a href="#syntaxerror-missing-before-statement" id="syntaxerror-missing-before-statement"></a>
 
 This error generally means that you have missed a semicolon at the end of one of your lines of code, but it can sometimes be more cryptic. For example, if we change this line inside the `checkGuess()` function:
 
@@ -1169,13 +1173,13 @@ It throws this error because it thinks you are trying to do something different.
 
 **Note:** See our \[SyntaxError: missing ; before statement]Reference/Errors/Missing\_semicolon\_before\_statement) reference page for more details about this error.
 
-### &#x20;<a href="3" id="3"></a>
+### &#x20;<a href="#3" id="3"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[The program always says you've won, regardless of the guess you enter] <a href="the-program-always-says-youve-won-regardless-of-the-guess-you-enter" id="the-program-always-says-youve-won-regardless-of-the-guess-you-enter"></a>
+## \[The program always says you've won, regardless of the guess you enter] <a href="#the-program-always-says-youve-won-regardless-of-the-guess-you-enter" id="the-program-always-says-youve-won-regardless-of-the-guess-you-enter"></a>
 
 This could be another symptom of mixing up the assignment and strict equality operators. For example, if we were to change this line inside `checkGuess()`:
 
@@ -1191,25 +1195,25 @@ if (userGuess = randomNumber) {
 
 the test would always return `true`, causing the program to report that the game has been won. Be careful!
 
-### &#x20;<a href="4" id="4"></a>
+### &#x20;<a href="#4" id="4"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[SyntaxError: missing] <a href="syntaxerror-missing" id="syntaxerror-missing"></a>
+## \[SyntaxError: missing] <a href="#syntaxerror-missing" id="syntaxerror-missing"></a>
 
 This one is pretty simple --- it generally means that you've missed the closing parenthesis at the end of a function/method call.
 
 **Note:** See our \[SyntaxError: missing ] reference page for more details about this error.
 
-### &#x20;<a href="5" id="5"></a>
+### &#x20;<a href="#5" id="5"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[SyntaxError:] <a href="syntaxerror" id="syntaxerror"></a>
+## \[SyntaxError:] <a href="#syntaxerror" id="syntaxerror"></a>
 
 This error usually relates to an incorrectly formed JavaScript object, but in this case we managed to get it by changing
 
@@ -1225,23 +1229,23 @@ function checkGuess( {
 
 This has caused the browser to think that we are trying to pass the contents of the function into the function as an argument. Be careful with those parentheses!
 
-### &#x20;<a href="6" id="6"></a>
+### &#x20;<a href="#6" id="6"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[SyntaxError: missing } after function body]\(What\_went\_wrong#syntaxerror\_missing\_after\_function\_body SyntaxError: missing } after function body") <a href="syntaxerror-missing-after-function-bodywhat_went_wrongsyntaxerror_missing_after_function_body-syntax" id="syntaxerror-missing-after-function-bodywhat_went_wrongsyntaxerror_missing_after_function_body-syntax"></a>
+## \[SyntaxError: missing } after function body]\(What\_went\_wrong#syntaxerror\_missing\_after\_function\_body SyntaxError: missing } after function body") <a href="#syntaxerror-missing-after-function-bodywhat_went_wrongsyntaxerror_missing_after_function_body-syntax" id="syntaxerror-missing-after-function-bodywhat_went_wrongsyntaxerror_missing_after_function_body-syntax"></a>
 
 This is easy --- it generally means that you've missed one of your curly braces from a function or conditional structure. We got this error by deleting one of the closing curly braces near the bottom of the `checkGuess()` function.
 
-### &#x20;<a href="7" id="7"></a>
+### &#x20;<a href="#7" id="7"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[SyntaxError: <a href="syntaxerror-1" id="syntaxerror-1"></a>
+## \[SyntaxError: <a href="#syntaxerror-1" id="syntaxerror-1"></a>
 
 These errors generally mean that you've left off a string value's opening or closing quote mark. In the first error above, _string_ would be replaced with the unexpected character(s) that the browser found instead of a quote mark at the start of a string. The second error means that the string has not been ended with a quote mark.
 
@@ -1251,23 +1255,23 @@ For all of these errors, think about how we tackled the examples we looked at in
 
 Error`objects are thrown when runtime errors occur. The`Error\` object can also be used as a base object for user-defined exceptions. See below for standard built-in error types.
 
-## &#x20;<a href="8" id="8"></a>
+## &#x20;<a href="#8" id="8"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Description]/error#description Description") <a href="descriptionerrordescription-description" id="descriptionerrordescription-description"></a>
+## \[Description]/error#description Description") <a href="#descriptionerrordescription-description" id="descriptionerrordescription-description"></a>
 
 Runtime errors result in new `Error` objects being created and thrown.
 
-### &#x20;<a href="9" id="9"></a>
+### &#x20;<a href="#9" id="9"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Error types]/error#error\_types Error types") <a href="error-typeserrorerror_types-error-types" id="error-typeserrorerror_types-error-types"></a>
+## \[Error types]/error#error\_types Error types") <a href="#error-typeserrorerror_types-error-types" id="error-typeserrorerror_types-error-types"></a>
 
 Besides the generic `Error` constructor, there are other core error constructors in JavaScript. For client-side exceptions, see \[Exception handling statements]Guide/Control\_flow\_and\_error\_handling#exception\_handling\_statements).
 
@@ -1275,7 +1279,7 @@ Besides the generic `Error` constructor, there are other core error constructors
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[`EvalError`]/EvalError) <a href="evalerrorevalerror" id="evalerrorevalerror"></a>
+## \[`EvalError`]/EvalError) <a href="#evalerrorevalerror" id="evalerrorevalerror"></a>
 
 Creates an instance representing an error that occurs regarding the global function \[`eval()`]/eval).
 
@@ -1283,7 +1287,7 @@ Creates an instance representing an error that occurs regarding the global funct
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[`RangeError`]/RangeError) <a href="rangeerrorrangeerror" id="rangeerrorrangeerror"></a>
+## \[`RangeError`]/RangeError) <a href="#rangeerrorrangeerror" id="rangeerrorrangeerror"></a>
 
 Creates an instance representing an error that occurs when a numeric variable or parameter is outside of its valid range.
 
@@ -1291,7 +1295,7 @@ Creates an instance representing an error that occurs when a numeric variable or
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[`ReferenceError`]/ReferenceError) <a href="referenceerrorreferenceerror" id="referenceerrorreferenceerror"></a>
+## \[`ReferenceError`]/ReferenceError) <a href="#referenceerrorreferenceerror" id="referenceerrorreferenceerror"></a>
 
 Creates an instance representing an error that occurs when de-referencing an invalid reference.
 
@@ -1299,7 +1303,7 @@ Creates an instance representing an error that occurs when de-referencing an inv
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[`SyntaxError`]/SyntaxError) <a href="syntaxerrorsyntaxerror" id="syntaxerrorsyntaxerror"></a>
+## \[`SyntaxError`]/SyntaxError) <a href="#syntaxerrorsyntaxerror" id="syntaxerrorsyntaxerror"></a>
 
 Creates an instance representing a syntax error.
 
@@ -1307,7 +1311,7 @@ Creates an instance representing a syntax error.
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[`TypeError`]/TypeError) <a href="typeerrortypeerror" id="typeerrortypeerror"></a>
+## \[`TypeError`]/TypeError) <a href="#typeerrortypeerror" id="typeerrortypeerror"></a>
 
 Creates an instance representing an error that occurs when a variable or parameter is not of a valid type.
 
@@ -1315,7 +1319,7 @@ Creates an instance representing an error that occurs when a variable or paramet
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[`URIError`]/URIError) <a href="urierrorurierror" id="urierrorurierror"></a>
+## \[`URIError`]/URIError) <a href="#urierrorurierror" id="urierrorurierror"></a>
 
 Creates an instance representing an error that occurs when \[`encodeURI()`]/encodeURI) or \[`decodeURI()`]/decodeURI) are passed invalid parameters.
 
@@ -1323,7 +1327,7 @@ Creates an instance representing an error that occurs when \[`encodeURI()`]/enco
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[`AggregateError`]/AggregateError) <a href="aggregateerroraggregateerror" id="aggregateerroraggregateerror"></a>
+## \[`AggregateError`]/AggregateError) <a href="#aggregateerroraggregateerror" id="aggregateerroraggregateerror"></a>
 
 Creates an instance representing several errors wrapped in a single error when multiple errors need to be reported by an operation, for example by \[`Promise.any()`]/Promise/any).
 
@@ -1331,65 +1335,65 @@ Creates an instance representing several errors wrapped in a single error when m
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[`InternalError`]/InternalError) <a href="internalerrorinternalerror" id="internalerrorinternalerror"></a>
+## \[`InternalError`]/InternalError) <a href="#internalerrorinternalerror" id="internalerrorinternalerror"></a>
 
 Creates an instance representing an error that occurs when an internal error in the JavaScript engine is thrown. E.g. "too much recursion".
 
-## &#x20;<a href="10" id="10"></a>
+## &#x20;<a href="#10" id="10"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Constructor]/error#constructor Constructor") <a href="constructorerrorconstructor-constructor" id="constructorerrorconstructor-constructor"></a>
+## \[Constructor]/error#constructor Constructor") <a href="#constructorerrorconstructor-constructor" id="constructorerrorconstructor-constructor"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[`Error()`]/Error/Error) <a href="errorerrorerror" id="errorerrorerror"></a>
+## \[`Error()`]/Error/Error) <a href="#errorerrorerror" id="errorerrorerror"></a>
 
 Creates a new `Error` object.
 
-## &#x20;<a href="11" id="11"></a>
+## &#x20;<a href="#11" id="11"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Static methods]/error#static\_methods Static methods") <a href="static-methodserrorstatic_methods-static-methods" id="static-methodserrorstatic_methods-static-methods"></a>
+## \[Static methods]/error#static\_methods Static methods") <a href="#static-methodserrorstatic_methods-static-methods" id="static-methodserrorstatic_methods-static-methods"></a>
 
-## &#x20;<a href="12" id="12"></a>
-
-***
-
-![split](https://i.imgur.com/fDXeVIn.png)
-
-## \[Instance properties]/error#instance\_properties Instance properties") <a href="instance-propertieserrorinstance_properties-instance-properties" id="instance-propertieserrorinstance_properties-instance-properties"></a>
-
-## &#x20;<a href="13" id="13"></a>
+## &#x20;<a href="#12" id="12"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Instance methods]/error#instance\_methods Instance methods") <a href="instance-methodserrorinstance_methods-instance-methods" id="instance-methodserrorinstance_methods-instance-methods"></a>
+## \[Instance properties]/error#instance\_properties Instance properties") <a href="#instance-propertieserrorinstance_properties-instance-properties" id="instance-propertieserrorinstance_properties-instance-properties"></a>
 
-## &#x20;<a href="14" id="14"></a>
-
-***
-
-![split](https://i.imgur.com/fDXeVIn.png)
-
-## \[Examples]/error#examples Examples") <a href="exampleserrorexamples-examples" id="exampleserrorexamples-examples"></a>
-
-### &#x20;<a href="15" id="15"></a>
+## &#x20;<a href="#13" id="13"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Throwing a generic error] <a href="throwing-a-generic-error" id="throwing-a-generic-error"></a>
+## \[Instance methods]/error#instance\_methods Instance methods") <a href="#instance-methodserrorinstance_methods-instance-methods" id="instance-methodserrorinstance_methods-instance-methods"></a>
+
+## &#x20;<a href="#14" id="14"></a>
+
+***
+
+![split](https://i.imgur.com/fDXeVIn.png)
+
+## \[Examples]/error#examples Examples") <a href="#exampleserrorexamples-examples" id="exampleserrorexamples-examples"></a>
+
+### &#x20;<a href="#15" id="15"></a>
+
+***
+
+![split](https://i.imgur.com/fDXeVIn.png)
+
+## \[Throwing a generic error] <a href="#throwing-a-generic-error" id="throwing-a-generic-error"></a>
 
 Usually you create an `Error` object with the intention of raising it using the \[`throw`]Reference/Statements/throw) keyword. You can handle the error using the \[`try...catch`]Reference/Statements/try...catch) construct:
 
@@ -1401,13 +1405,13 @@ try {
 }
 ```
 
-### &#x20;<a href="16" id="16"></a>
+### &#x20;<a href="#16" id="16"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Handling a specific error type] <a href="handling-a-specific-error-type" id="handling-a-specific-error-type"></a>
+## \[Handling a specific error type] <a href="#handling-a-specific-error-type" id="handling-a-specific-error-type"></a>
 
 You can choose to handle only specific error types by testing the error type with the error's \[`constructor`]/Object/constructor) property or, if you're writing for modern JavaScript engines, \[`instanceof`]Reference/Operators/instanceof) keyword:
 
@@ -1429,13 +1433,13 @@ try {
 }
 ```
 
-### &#x20;<a href="17" id="17"></a>
+### &#x20;<a href="#17" id="17"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Differentiate between similar errors] <a href="differentiate-between-similar-errors" id="differentiate-between-similar-errors"></a>
+## \[Differentiate between similar errors] <a href="#differentiate-between-similar-errors" id="differentiate-between-similar-errors"></a>
 
 Sometimes a block of code can fail for reasons that require different handling, but which throw very similar errors (i.e. with the same type and message).
 
@@ -1482,15 +1486,15 @@ class MyError extends Error {
 }
 ```
 
-### &#x20;<a href="18" id="18"></a>
+### &#x20;<a href="#18" id="18"></a>
 
 ***
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## \[Custom Error Types] <a href="custom-error-types" id="custom-error-types"></a>
+## \[Custom Error Types] <a href="#custom-error-types" id="custom-error-types"></a>
 
-You might want to define your own error types deriving from `Error` to be able to `throw new MyError()` and use `instanceof MyError` to check the kind of error in the exception handler.  This results in cleaner and more consistent error handling code.
+You might want to define your own error types deriving from `Error` to be able to `throw new MyError()` and use `instanceof MyError` to check the kind of error in the exception handler. This results in cleaner and more consistent error handling code.
 
 See ["What's a good way to extend Error in JavaScript?"](https://stackoverflow.com/questions/1382107/whats-a-good-way-to-extend-error-in-javascript) on StackOverflow for an in-depth discussion.
 
@@ -1500,7 +1504,7 @@ See ["What's a good way to extend Error in JavaScript?"](https://stackoverflow.c
 
 ![split](https://i.imgur.com/fDXeVIn.png)
 
-## ES6 Custom Error Class <a href="es6-custom-error-class" id="es6-custom-error-class"></a>
+## ES6 Custom Error Class <a href="#es6-custom-error-class" id="es6-custom-error-class"></a>
 
 **Warning:** Versions of Babel prior to 7 can handle `CustomError` class methods, but only when they are declared with \[Object.defineProperty()]/Object/defineProperty). Otherwise, old versions of Babel and other transpilers will not correctly handle the following code without [additional configuration](https://github.com/loganfsmyth/babel-plugin-transform-builtin-extend).
 
@@ -1534,7 +1538,7 @@ try {
 }
 ```
 
-#### ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ <a href="19" id="19"></a>
+#### ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ <a href="#19" id="19"></a>
 
 ***
 
@@ -2284,4 +2288,3 @@ Telemetry\
 Telemetry screenshot
 
 Unique to Rollbar's JavaScript integration, telemetry is an advanced event tracker that allows you to identify what happens in the moments leading up to, and immediately following, an error. This is incredibly valuable, as it gives you the ability to see any behavior that may have inadvertently lead to the error being thrown.
-
